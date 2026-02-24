@@ -121,17 +121,6 @@ body{
     }
 }
 /* card section */
-.card{
-    width: 600;
-    height: 310px;
-    border-radius: 45px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-    background-color: #F3F3F3;
-
-}
 .card_conatiner{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -141,6 +130,16 @@ body{
     padding:  100px 100px;
     gap: 40px;
     
+}
+.card{
+    width: 600;
+    height: 310px;
+    border-radius: 45px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #F3F3F3;
 }
 .left_card{
     width: 221px;
@@ -154,21 +153,252 @@ body{
         line-height: 100%;
         letter-spacing: 0%
     }
-    .arrow{
+    .arrow_section{
+        margin-top: 100px;
         display: flex;
-        gap: 93px;
-        width: 164px;
-        height: 41px;
-        gap: 15px;
         align-items: center;
-        
+        gap: 15px;
     }
-        .arrow_logo{
-            color: #B9FF66;
-          width: 41px;
-        height: 41px;
+    .arrow{
+        display: inline;
+        background-color: #000000;
         border-radius: 50%;
-        background-color: black;
-
-        }
+        rotate: 30%;
+        color: #B9FF66;
+        font-size: 30px;
+        transform: rotate(30deg);
     }
+    .learn_more{
+        font-size: 20px;
+        font-family: 400;
+        letter-spacing: 0%;
+        line-height: 28%;
+    }
+    }
+    .card1{
+    width: 600;
+    height: 310px;
+    border-radius: 45px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #B9FF66;
+}
+.left_card{
+    width: 221px;
+    height: 38px;
+    padding: 7px 7px;
+    border-radius: 7px;
+    .cardh3{
+        background-color: #F3F3F3;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: 0%
+    }
+    .arrow_section{
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .arrow{
+        display: inline;
+        background-color: #000000;
+        border-radius: 50%;
+        rotate: 30%;
+        color: #B9FF66;
+        font-size: 30px;
+        transform: rotate(30deg);
+    }
+    .learn_more{
+        font-size: 20px;
+        font-family: 400;
+        letter-spacing: 0%;
+        line-height: 28%;
+    }
+    }
+
+    .card2{
+    width: 600;
+    height: 310px;
+    border-radius: 45px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color:#191A23;
+;
+}
+.left_card{
+    width: 221px;
+    height: 38px;
+    padding: 7px 7px;
+    border-radius: 7px;
+    .cardh3{
+        background-color: #F3F3F3;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: 0%
+    }
+    .arrow_section{
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .arrow{
+        display: inline;
+        background-color: #000000;
+        border-radius: 50%;
+        rotate: 30%;
+        color: #B9FF66;
+        font-size: 30px;
+        transform: rotate(30deg);
+    }
+    .learn_more{
+        font-size: 20px;
+        font-family: 400;
+        letter-spacing: 0%;
+        line-height: 28%;
+    }
+    }
+
+    .card3{
+    width: 600;
+    height: 310px;
+    border-radius: 45px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color:#F3F3F3;
+}
+.left_card{
+    width: 221px;
+    height: 38px;
+    padding: 7px 7px;
+    border-radius: 7px;
+    h3{
+        background-color: #B9FF66;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: 0%
+    }
+    .arrow_section{
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .arrow{
+        display: inline;
+        background-color: #000000;
+        border-radius: 50%;
+        rotate: 30%;
+        color: #B9FF66;
+        font-size: 30px;
+        transform: rotate(30deg);
+    }
+    .learn_more{
+        font-size: 20px;
+        font-family: 400;
+        letter-spacing: 0%;
+        line-height: 28%;
+    }
+    }
+
+    .card4{
+    width: 600;
+    height: 310px;
+    border-radius: 45px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #F3F3F3;
+}
+.left_card{
+    width: 221px;
+    height: 38px;
+    padding: 7px 7px;
+    border-radius: 7px;
+    .cardh3{
+        background-color: #B9FF66;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: 0%
+    }
+    .arrow_section{
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .arrow{
+        display: inline;
+        background-color: #000000;
+        border-radius: 50%;
+        rotate: 30%;
+        color: #B9FF66;
+        font-size: 30px;
+        transform: rotate(30deg);
+    }
+    .learn_more{
+        font-size: 20px;
+        font-family: 400;
+        letter-spacing: 0%;
+        line-height: 28%;
+    }
+    }
+
+    .card5{
+    width: 600;
+    height: 310px;
+    border-radius: 45px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #191A23;
+}
+.left_card{
+    width: 221px;
+    height: 38px;
+    padding: 7px 7px;
+    border-radius: 7px;
+    h3{
+        background-color: #B9FF66;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: 0%
+    }
+    .arrow_section{
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .arrow{
+        display: inline;
+        background-color: #000000;
+        border-radius: 50%;
+        rotate: 30%;
+        color: #B9FF66;
+        font-size: 30px;
+        transform: rotate(30deg);
+    }
+    .learn_more{
+        font-size: 20px;
+        font-family: 400;
+        letter-spacing: 0%;
+        line-height: 28%;
+    }
+    }
+
+
