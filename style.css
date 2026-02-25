@@ -266,3 +266,93 @@ position: relative;
     left: 180px;
     top: -85px;
 }
+/* cards_container */
+.cards_container{
+    max-width: 1440px;
+    padding: 100px;
+    height: 326px;
+}
+.three_card{
+    width: 1234px;
+    height: 326px;
+    border-radius: 45px;
+    padding: 70px 60px;
+    background-color: #191A23;
+    display: flex;
+}
+.f_card_para{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #f3f3f3;
+}
+.f_card{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    max-width: 286px;
+    height: 163px;
+    border-right: 1px solid white;
+}
+.learn_more{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.learn_text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28%;
+    letter-spacing: 0%;
+    color: #b9ff66;
+}
+.learn_arrow{
+    color: #b9ff66;
+    font-size: 20px;
+    font-weight: 400;
+    transform: rotate(30deg);
+}
+.s_card{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    max-width: 286px;
+    height: 163px;
+    border-right: 1px solid white;
+}
+.t_card{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    max-width: 286px;
+    height: 163px;
+    border-right: 1px solid white;
+}
+/* work_section */
+.work_container{
+    margin-top: 50px;
+    max-width: 1440px;
+    padding: 100px;
+    height: 51px;
+}
+.work_section{
+    display: flex;
+    gap: 40px;
+}
+.first_work{
+    background-color: #b9ff66;
+    color: black;
+}
+.second_work{
+    max-width: 580px;
+    height: 46px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
