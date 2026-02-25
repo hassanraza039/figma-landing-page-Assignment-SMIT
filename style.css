@@ -141,6 +141,9 @@ li{
     justify-content: space-between;
     padding: 50px;
 }
+.card:hover{
+    transform: translateX(-5px);
+}
 .first_card{
     display: flex;
     flex-direction: column;
@@ -156,10 +159,110 @@ li{
     border-radius: 50%;
     color: #b9ff66;
     transform: rotate(30deg);
+    font-size: 30px;
 }
 .arrow_text{
     font-size: 20px;
     font-weight: 400;
     line-height: 28%;
     letter-spacing: 0%;
+}
+.card2{
+    width: 600px;
+    height: 310px;
+    border-radius: 45px;
+    background-color: #b9ff66;
+    border: 1px solid #191a23;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.card2:hover{
+    transform: translateX(-5px);
+}
+.card3{
+    width: 600px;
+    height: 310px;
+    border-radius: 45px;
+    background-color: #191A23;
+    border: 1px solid #191a23;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.card3:hover{
+    transform: translateX(-5px);
+}
+.grid_h1{
+    background-color: #b9ff66;
+}
+.grid_heading{
+    background-color: #f3f3f3;
+}
+.arrow3{
+    background-color: #f3f3f3;
+    border-radius: 50%;
+    color: #b9ff66;
+    transform: rotate(30deg);
+    font-size: 30px;
+}
+.arrow_text3{
+    color: #f3f3f3;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28%;
+    letter-spacing: 0%;
+}
+/* .div_section */
+.div_container{
+    max-width: 1440px;
+    height: 394px;
+    padding: 100px;
+}
+.div_card{
+    max-width: 1240px;
+    height: 347px;
+    border-radius: 45px;
+    padding: 60px;
+    display: flex;
+    background-color: #f3f3f3;
+}
+.first_div{
+    max-width: 500px;
+    height: 227px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.div_h3{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.div_para{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.div_button{
+    width: 288px;
+    height: 68px;
+    border-radius: 14px;
+    padding: 20px 35px;
+    background-color: #191A23;
+    color: #f3f3f3;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28%;
+    letter-spacing: 0%;
+}
+.second_div{
+position: relative;
+}
+.div_image{
+    position: absolute;
+    left: 180px;
+    top: -85px;
 }
