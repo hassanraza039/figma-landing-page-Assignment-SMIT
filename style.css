@@ -91,6 +91,7 @@ li{
     width: 600px;
     height: 515px;
 }
+/* company_logo_section */
 .company_logo{
     max-width: 1440px;
     height: 48px;
@@ -99,4 +100,66 @@ li{
 .logo_bar{
     display: flex;
     justify-content: space-between;
+}
+/* service_section */
+.service_container{
+    max-width: 1440px;
+    padding: 100px;
+    height: 51px;
+}
+.service_section{
+    display: flex;
+    gap: 40px;
+}
+.first_service{
+    background-color: #b9ff66;
+    color: black;
+}
+.second_service{
+    max-width: 580px;
+    height: 46px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+/* grid_section */
+.grid_container{
+    max-width: 1440px;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+.card{
+    width: 600px;
+    height: 310px;
+    border-radius: 45px;
+    background-color: #f3f3f3;
+    border: 1px solid #191a23;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.first_card{
+    display: flex;
+    flex-direction: column;
+    gap: 93px;
+}
+.arrow_grid{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.arrow{
+    background-color: #191A23;
+    border-radius: 50%;
+    color: #b9ff66;
+    transform: rotate(30deg);
+}
+.arrow_text{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28%;
+    letter-spacing: 0%;
 }
