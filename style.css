@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+/* nav-section */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    height: 68px;
+    padding: 100px;
+}{
+
+}
+.nav_logo{
+    width: 220px;
+    height: 56px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+.logo_text{
+    font-size: 34px;
+    font-weight: bold;
+}
+.nav_item{
+}
