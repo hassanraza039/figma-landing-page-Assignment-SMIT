@@ -95,7 +95,8 @@ li{
 .company_logo{
     max-width: 1440px;
     height: 48px;
-    padding: 100px;;
+    padding: 100px;
+    margin-top: 50px;
 }
 .logo_bar{
     display: flex;
@@ -339,6 +340,7 @@ position: relative;
     max-width: 1440px;
     padding: 100px;
     height: 51px;
+    margin-top: 100px;
 }
 .work_section{
     display: flex;
@@ -354,5 +356,105 @@ position: relative;
     font-size: 18px;
     font-weight: 400;
     line-height: 100%;
+    letter-spacing: 0%;
+}
+/* data_section */
+.data_container{
+    max-width: 1440px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.data1{
+    max-width: 1234px;
+    height: 279px;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    padding: 41px 60px;
+    background-color: #b9ff66;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.consultation_div{
+    max-width: 1117px;
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.consultation_num{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.consultation_h1{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.minus{
+    width: 58px;
+    height: 58px;
+    background-color: #f3f3f3;
+    color: #191A23;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #191A23;
+}
+.consultation_p{
+    width: 1114px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+hr{
+    border: 1px solid #191A23;
+}
+.data2{
+    max-width: 1234px;
+    height: 159px;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    padding: 41px 60px;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* team_section */
+.team_service{
+    max-width: 1440px;
+    height: 51px;
+    padding: 100px;
+}
+.team_div{
+    display: flex;
+    gap: 40px;
+}
+.team_h1{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background-color: #b9ff66;
+}
+.team_para{
+    width: 473px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
     letter-spacing: 0%;
 }
