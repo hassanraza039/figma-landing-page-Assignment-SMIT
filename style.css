@@ -45,13 +45,13 @@ li{
     color: #191A23;
 }
 /* resonsive_navbar */
-@media (max-width: 720px){
+@media (max-width: 768px){
     .navbar{
      display: flex;
      flex-direction: column;
      align-items: center;
     }
-    .ul li{
+    .li{
         margin: 8px 0;
     }
     .nav_button button{
@@ -106,7 +106,7 @@ li{
     width: 600px;
     height: 515px;
 }
-@media (max-width: 720px){
+@media (max-width: 768px){
     .hero_section{
         flex-wrap: wrap;
     }
@@ -122,7 +122,7 @@ li{
     display: flex;
     justify-content: space-between;
 }
-@media(max-width : 720px){
+@media(max-width : 768px){
     .company_logo{
         margin-top: 600px;
     }
@@ -243,11 +243,12 @@ li{
     line-height: 28%;
     letter-spacing: 0%;
 }
-@media (max-width:720px){
-    .card{
-        flex-wrap: wrap;
+@media (max-width:768px){
+    .grid_container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 40px;
     }
-    
 }
 /* .div_section */
 .div_container{
@@ -492,4 +493,60 @@ hr{
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0%;
+}
+/* banners sections */
+.banners_container{
+    max-width: 1440px;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.banner_card{
+    max-width: 387px;
+    height: 331px;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    padding: 40px 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.banner_1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.banner_h4{
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.banner_p{
+    width: 148px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+.banner_linked_in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    background-color: #191A23;
+    color: #b9ff66;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.banner_p1{
+    max-width: 317;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0;
 }
