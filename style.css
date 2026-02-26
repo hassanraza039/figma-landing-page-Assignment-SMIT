@@ -500,6 +500,8 @@ hr{
     padding: 100px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    gap: 40px;
 }
 .banner_card{
     max-width: 387px;
@@ -510,6 +512,7 @@ hr{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    border: 1px solid #191A23;
 }
 .banner_1{
     display: flex;
