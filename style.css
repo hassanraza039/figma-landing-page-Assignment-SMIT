@@ -574,7 +574,7 @@ hr{
 .curve_container{
     max-width: 1240px;
     height: 625px;
-    background-color: #ae4769;
+    background-color: #191A23;
     border-radius: 45px;
     position: relative;
     left: 100px;
@@ -597,8 +597,6 @@ hr{
     height: 238px;
     border: 2px solid #b9ff66;
     border-radius: 45px;
-    display: flex;
-    align-items: center;
 }
 .curve_card_para{
     width: 502px;
@@ -636,8 +634,7 @@ hr{
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    position: absolute;
-    left: 0px;
+
 }
 .bx1{
     width: 14px;
@@ -650,10 +647,8 @@ hr{
     background-color: #f3f3f3;
 }
 .box_right_arrow{
-    position: absolute;
-    left: 0px;
+    color: #f3f3f3;
 }
 .box_left_arrow{
-    position: absolute;
-    left: 0px;
+    color: #f3f3f3;
 }
