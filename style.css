@@ -57,17 +57,42 @@ li {
     .navbar {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-    }
+        width: 1000px;
+    }.nav_logo {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 10px;
+    align-items: center;
+}
 
-    .li {
-        margin: 8px 0;
-    }
+.logo_text {
+    font-size: 64px;
+    font-weight: 700;
+}
 
-    .nav_button button {
-        margin-top: 10px;
-        text-align: center;
-    }
+ul {
+    display: flex;
+    gap: 40px;
+}
+
+li {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    list-style: none;
+}
+
+.nav_button button {
+    border-radius: 14px;
+    border: 1px solid #191A23;
+    padding: 20px 35px;
+    background-color: white;
+    color: #191A23;
+}
 }
 
 /* hero-section */
