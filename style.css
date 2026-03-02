@@ -597,6 +597,7 @@ hr{
     height: 238px;
     border: 2px solid #b9ff66;
     border-radius: 45px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 21% 73%, 15% 84%, 9% 74%, 0% 75%);
 }
 .curve_card_para{
     width: 502px;
