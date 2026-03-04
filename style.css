@@ -1193,7 +1193,7 @@ hr{
 
 .see_div {
     position: absolute;
-    right: 330px;
+    right: 200px;
     width: 269px;
     height: 68px;
     padding: 20px 35px;
@@ -1253,107 +1253,229 @@ hr{
 }
 }
 /* curve_section */
-.curve_container {
-    max-width: 1440px;
+.curve_container{
+    max-width: 1240px;
     height: 625px;
     background-color: #191A23;
     border-radius: 45px;
-    position: relative;
-    left: 100px;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+    margin-left: 100px;
     overflow: hidden;
-    padding: 100px;
-
 }
-
-.curve_card_div {
+.curve_section{
+    width: 1918px;
+    height: 473px;
+    padding-top: 0px;
     display: flex;
-    flex-direction: column;
-    width: 606px;
-    height: 335px;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: -328px;
 }
-
-.curve_card {
-    margin-top: 84px;
+.card_clippy{
+    position: relative;
     width: 606px;
-    border: 1px solid #b9ff66;
-    border-radius: 45px;
-    /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 21% 73%, 15% 84%, 9% 74%, 0% 75%); */
-    height: auto;
-    padding: 48px 52px;
+    height: 266px;
+    padding: 40px;
+    border: 1.5px solid #b9ff66;
+    border-radius: 40px;
+    background: transparent;
 }
-
-.curve_card_para {
+/* Tail */
+.card_clippy::after{
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    left: 13%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 26px;
+    height: 26px;
+    background: #191A23; 
+    border-right: 1.5px solid #b9ff66;
+    border-bottom: 1.5px solid #b9ff66;
+}
+.curve_p{
     width: 502px;
     height: 138px;
+    padding: 48px 52px;
+    color: white;
     font-size: 18px;
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0%;
-    color: #f3f3f3;
 }
-
-.curve_card2 {
-    margin-left: 70px;
+.curve_typo{
+    width: 526px;
+    height: 49px;
+    margin-left: -530px;
+    margin-top: 300px;
 }
-
-.curve_card_h4 {
+.curve_h4{
+    color: #b9ff66;
     font-size: 20px;
     font-weight: 500;
     line-height: 100%;
     letter-spacing: 0%;
-    color: #b9ff66;
 }
-
-.curve_card_para2 {
+.curve_para{
     font-size: 18px;
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0%;
-    color: #f3f3f3;
+    color: white;
 }
-
-.box_bottom {
+.card_cur{
     display: flex;
-    justify-content: space-between;
-    position: relative;
 }
-
-.boxes {
+.boxes{
+    width: 146px;
+    height: 14px;
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
-
+    gap: 20px;
 }
-
-.bx1 {
+.bx1{
     width: 14px;
     height: 14px;
     background-color: #b9ff66;
 }
-
-.bx2 {
+.bx2{
     width: 14px;
     height: 14px;
-    background-color: #f3f3f3;
+    background-color: white;
 }
-
-.box_right_arrow {
-    color: #f3f3f3;
+.left{
+    color: white;
 }
-
-.box_left_arrow {
-    color: #f3f3f3;
+.right{
+    color: white;
 }
+.arrows_div{
+    max-width: 564px;
+    height: 14px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 300px;
+}
+@media(max-width:768px){
+.curve_container{
+    max-width: 390px;
+    height: 460px;
+    background-color: #191A23;
+    border-radius: 45px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.curve_section{
+    display: block;
+    margin-top: 30px;
+    width: 390px;
+    height: 473px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 198px;
+}
+.card_clippy{
+    position: relative;
+    width: 380px;
+    height: 400px;
+    padding: 0px;
+    border: 1.5px solid #b9ff66;
+    border-radius: 40px;
+    background: transparent;
+}
+/* Tail */
+.card_clippy::after{
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    left: 13%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 26px;
+    height: 26px;
+    background: #191A23; 
+    border-right: 1.5px solid #b9ff66;
+    border-bottom: 1.5px solid #b9ff66;
+}
+.curve_p{
+    width: 300px;
+    height: 600px;
+    padding:0px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.curve_typo{
+    width: 526px;
+    height: 49px;
+    margin-left: -130px;
+    margin-top: 288px;
+}
+.curve_h4{
+    color: #b9ff66;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.curve_para{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+.card_cur{
+    display: flex;
+}
+.boxes{
+    width: 146px;
+    height: 14px;
+    display: flex;
+    gap: 20px;
+}
+.bx1{
+    width: 14px;
+    height: 14px;
+    background-color: #b9ff66;
+}
+.bx2{
+    width: 14px;
+    height: 14px;
+    background-color: white;
+}
+.left{
+    color: white;
+}
+.right{
+    color: white;
+}
+.arrows_div{
+    max-width: 280px;
+    height: 14px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 40px;
+    top: -130px;
+}
+}
+/* contact_session */
 .contact_container {
+    margin-top: 100px;
     max-width: 1440px;
     padding: 100px;
     height: 51px;
 }
-
 .contact_section {
     display: flex;
     gap: 40px;
