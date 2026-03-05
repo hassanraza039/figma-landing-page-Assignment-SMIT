@@ -234,7 +234,7 @@ li {
         display: flex;
         justify-content: space-between;
         gap: 55px;
-        margin-left: 85px;
+        margin-left: 50px;
     }
 
     .amazon {
