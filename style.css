@@ -51,6 +51,44 @@ li {
     background-color: white;
     color: #191A23;
 }
+.hamburger{
+    display: none;
+}
+@media (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        place-items: center;
+    }
+    .nav_logo {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+.logo_text {
+    font-size: 28px;
+    font-weight: bold;
+}
+.nav_button button {
+    border-radius: 14px;
+    border: 1px solid #191A23;
+    padding: 15px 25px;
+    background-color: white;
+    color: #191A23;
+}
+.hamburger{
+    display: block;
+    font-size: 28px;
+}
+.nav_item{
+    display: none;
+}
+}
 /* hero-section */
 .hero_section {
     max-width: 1440px;
@@ -101,6 +139,19 @@ li {
     width: 600px;
     height: 515px;
 }
+@media (max-width: 768px) {
+    .hero_section {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        place-items: center;
+        padding: 0 20px;
+    }
+    .hero_image {
+    width: 350px;
+    height: 515px;
+}
+}
 /* company_logo_section */
 .company_logo {
     max-width: 1440px;
@@ -112,6 +163,27 @@ li {
 .logo_bar {
     display: flex;
     justify-content: space-between;
+}
+@media(max-width : 768px) {
+    .company_logo {
+        max-width: 400px;
+        height: 48px;
+        padding: 150px 0;
+        margin-top: 350px;
+    }
+
+    .logo_bar {
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 50px;
+        padding: 0 20px;
+    }
+
+    .amazon {
+        width: 80px;
+    }
 }
 /* service_section */
 .service_container {
@@ -137,6 +209,21 @@ li {
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0%;
+}
+@media(max-width: 768px) {
+    .service_container {
+        max-width: 1440px;
+        padding: 0px;
+        height: 51px;
+        margin: 10px 15px;
+    }
+
+    .service_section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 0 20px;
+    }
 }
 /* grid_section */
 .grid_container {
@@ -242,6 +329,62 @@ li {
     line-height: 28%;
     letter-spacing: 0%;
 }
+@media (max-width:768px) {
+    .grid_container {
+        max-width: 1440px;
+        padding: 100px 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .card {
+        width: 100%;
+        height: 420px;
+        border-radius: 45px;
+        background-color: #f3f3f3;
+        border: 1px solid #191a23;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 16px;
+        margin: 10px;
+    }
+    .card2 {
+        width: 100%;
+        height: 420px;
+        border-radius: 45px;
+        background-color: #b9ff66;
+        border: 1px solid #191a23;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 16px;
+        margin: 10px;
+    }
+
+    .card2:hover {
+        transform: translateX(-5px);
+    }
+
+    .card3 {
+        width: 100%;
+        height: 420px;
+        border-radius: 45px;
+        background-color: #191A23;
+        border: 1px solid #191a23;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 16px;
+        margin: 10px;
+
+    }
+
+    .card3:hover {
+        transform: translateX(-5px);
+    }
+}
+
 /* .div_section */
 .div_container {
     max-width: 1440px;
@@ -302,6 +445,33 @@ li {
     left: 180px;
     top: -85px;
 }
+@media (max-width:768px) {
+    .div_container {
+        max-width: 1440px;
+        height: 394px;
+        padding: 10px;
+    }
+
+    .div_card {
+        width:100%;
+        height: 750px;
+        border-radius: 45px;
+        padding: 60px;
+        display: flex;
+        flex-direction: column;
+        background-color: #f3f3f3;
+    }
+
+    .second_div {
+        position: relative;
+    }
+
+    .div_image {
+        position: absolute;
+        left: -40px;
+        top: 30px;
+    }
+}
 /* case_section */
 .case_container {
     max-width: 1440px;
@@ -326,6 +496,21 @@ li {
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0%;
+}
+@media(max-width: 768px) {
+    .case_container {
+        max-width: 1440px;
+        padding: 400px 20px 100px 20px;
+        height: 51px;
+    }
+
+    .case_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        margin: 0 15px;
+    }
 }
 /* cards_container */
 .cards_container {
@@ -402,6 +587,50 @@ li {
     height: 163px;
     border-right: 1px solid white;
 }
+@Media(max-width:768px) {
+    .cards_container {
+        max-width: 1440px;
+        padding: 0px 20px;
+        height: 440px;
+        margin-top: 100px;
+
+    }
+
+    .three_card {
+        width: 100%;
+        height: 620px;
+        border-radius: 45px;
+        padding: 42px;
+        background-color: #191A23;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin: 10px;
+    }
+    .s_card {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+        max-width: 286px;
+        height: 163px;
+        border-right: 1px solid white;
+    }
+
+    .t_card {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+        max-width: 286px;
+        height: 163px;
+        border-right: 1px solid white;
+    }
+}
 /* work_section */
 .work_container {
     margin-top: 50px;
@@ -428,6 +657,24 @@ li {
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0%;
+}
+@media(max-width:768px) {
+    .work_container {
+
+        max-width: 1440px;
+        padding: 300px 20px 100px 20px;
+        height: 51px;
+        margin-top: -90px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .work_section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
 }
 /* data_section */
 .data_container {
@@ -513,6 +760,55 @@ hr {
     flex-direction: column;
     justify-content: space-between;
 }
+@media(max-width:768px) {
+    .data_container {
+        margin-top: 60px;
+        max-width: 1440px;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .data1 {
+        width:100%;
+        height: 250px;
+        border-radius: 45px;
+        border: 1px solid #191A23;
+        padding: 0 30px;
+        background-color: #b9ff66;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .consultation_p {
+        width: 300px;
+        height: 80px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+
+    }
+    .consultation_div {
+        max-width: 1117px;
+        height: 77px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .data2 {
+        width: 100%;
+        height: 159px;
+        border-radius: 45px;
+        border: 1px solid #191A23;
+        padding: 20px 40px;
+        background-color: #f3f3f3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0;
+    }
+}
 /* team_section */
 .team_service {
     max-width: 1440px;
@@ -539,6 +835,27 @@ hr {
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0%;
+}
+@media(max-width:768px) {
+    .team_service {
+        width: 100px;
+        height: 51px;
+        padding: 0px;
+        margin: 50px 15px 0 15px;
+    }
+    .team_div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+}
+.team_para {
+    width: 380px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
 }
 /* banners sections */
 .banners_container {
