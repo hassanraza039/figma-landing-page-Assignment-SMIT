@@ -83,7 +83,7 @@ ul{
 li {
     font-size: 18px;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 15px;
     letter-spacing: 0%;
     list-style: none;
 }
@@ -98,6 +98,7 @@ li {
     padding: 15px 25px;
     background-color: white;
     color: #191A23;
+    margin-top: 15px;
 }
 }
 /* hero-section */
@@ -343,7 +344,7 @@ li {
 @media (max-width:576px) {
     .grid_container {
         max-width: 1440px;
-        padding: 100px 20px;
+        padding: 100px 10px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
@@ -622,23 +623,31 @@ li {
 
     .three_card {
         width: 100%;
-        height: 620px;
+        height: 645px;
         border-radius: 45px;
         padding: 42px;
         background-color: #191A23;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         gap: 40px;
-        margin: 10px;
+        margin: 0px;
     }
+    .f_card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 286px;
+    height: 163px;
+    border-right: 1px solid white;
+}
     .s_card {
         margin-left: 0px;
         margin-right: 0px;
         display: flex;
         flex-direction: column;
-        gap: 64px;
+        gap: 5px;
         max-width: 286px;
         height: 163px;
         border-right: 1px solid white;
@@ -649,7 +658,7 @@ li {
         margin-right: 0px;
         display: flex;
         flex-direction: column;
-        gap: 64px;
+        gap: 5px;
         max-width: 286px;
         height: 163px;
         border-right: 1px solid white;
@@ -805,7 +814,7 @@ hr {
         flex-wrap: wrap;
     }
     .consultation_p {
-        width: 300px;
+        width: 100%;
         height: 190px;
         font-size: 20px;
         font-weight: 400;
@@ -1360,7 +1369,7 @@ hr {
         display: flex;
         justify-content: space-between;
         position: relative;
-        left: 50px;
+        left: 25px;
         top: 0px;
     }
 }
